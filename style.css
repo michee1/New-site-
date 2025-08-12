@@ -1,0 +1,82 @@
+
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    background-color: #fff;
+    color: #333;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1521791136064-7986c2920216') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.hero .overlay {
+    background-color: rgba(0,0,0,0.6);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+section {
+    padding: 3rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #bfa14a;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f8f8f8;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border-left: 5px solid #bfa14a;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    background: #bfa14a;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #a48935;
+}
+
+footer {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
